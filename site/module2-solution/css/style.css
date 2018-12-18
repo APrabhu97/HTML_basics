@@ -1,3 +1,80 @@
-body{
-	background: black;
+h1{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+/*div{
+	background: #A9A9A9;
+	border: 1px;
+	border-style: solid;
+	margin: 1px;
+	width: 50%;
+}*/
+
+h1{
+	margin: 30px;
+	font-size: 175%;
+}
+.section-box{;
+	border: 1px solid black;
+	font-weight: bold;
+	float: right;
+	clear: both;
+	padding: 5px;
+	border-top-width: 0;
+	border-right-width: 0;
+	font-size: 125%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.seperator{
+	clear: both;
+	padding: 10px;
+}
+.content-box{
+	background: #A9A9A9;
+	border: 1px solid;
+}
+.container-box{
+	border: 10px;
+}
+@media(min-width: 992px){
+	.col-lg-4{
+		float : left;
+		width: 33%;
+		padding: 10px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
+	.col-md-12{
+		float: left;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media(max-width: 767px){
+	.col-sm-12{
+		float: left;
+		width: 100%;
+		padding: 10px;
+	}
+}
+#section-box1{
+	background: #cc33ff;
+}
+#section-box2{
+	background: #ff0000;
+	color: #ffffff;
+}
+#section-box3{
+	background: #ffcc00;
 }
